@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oneclick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<!--BARRA DE NAVEGACION-->
+
+    <header>
+        <div class="flex">
+            <div class="top">
+                <h1 class="top-title">Dojonary</h1>
+                <input type="text" name="first_name" placeholder="Search">
+                <button id="login" class="btn-azul" onclick="cambiar()">Login</button>
+            </div>
+        </div>
+    </header>
+
+    <!--CUERPO-->
+
+    <div class="container">
+        <div class="fila1">
+            <div class="bloque1">
+                <div class="izq">
+                    <h1>ninja</h1>
+                    <p class="parrafo"><em>noun</em></p>
+                    <p>Plural:<em>ninjas</em></p>
+                    <button onclick="like()" class="btn">13 Likes</button>
+                </div>
+                <div class="der">
+                    <p class="parrafo">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#"> ninjutsu </a></p>
+                </div>
+            </div>
+            <div class="bloque2">
+                <h2>Dojonary is</h2>
+                <p class="parrafo">defined by YOU</p>
+                <button id="add" onclick="remove()" class="btn-verde">Add Definition</button>
+            </div>
+        </div>    
+        <div class="fila2">
+            <div class="bloque3">
+                <div class="izq">
+                    <h1>ninja</h1>
+                    <p class="parrafo"><em>noun</em></p>
+                    <p>Plural:<em>ninjas</em></p>
+                    <button class="btn">37 Likes</button>
+                </div>
+                <div class="der">
+                    <p class="parrafo">A <a href="#">programmer</a> who breaks down problems with <a href="#"> zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
